@@ -11,31 +11,31 @@
     <div class="red-box-container">
         <form action="/action_page.php">
     <div>
-        <label for="name" class="forms"><h4>FULL NAME:</h4></label>
-        <input for="name" name="name">
+        <label name="name" class="forms" name="name"><h4>FULL NAME:</h4></label>
+        <input type="name" name="name" required id="name">
     </div>
 
     <div>
-        <label for="MAIL" class="forms"><h4>EMAIL</h4></label>
-        <input type="text" name="mail" value="Your Email" class="input1">
+        <label name="email" class="forms"><h4>EMAIL</h4></label>
+        <input type="email" name="email"placeholder="Your Email" class="input1" required id="email">
     </div>
 
     <div>
         <label for="Message" class="forms"><h4>MESSAGE REGARDING</h4></label>
-        <input type="text" name="text" class="input1">
+        <input type="text" name="Message" class="input1 req" required id="message">
     </div>
 
     <div>
-        <label for="text" class="forms"><h4>MESSAGE</h4></label>
-        <input type="text" name="text" value="Your Message" class="input2">
-</div>
+        <label for="textarea" class="forms"><h4>MESSAGE</h4></label>
+        <textarea textarea rows="0" cols="54" name="textarea" id="textarea"></textarea>
+    </div>
 
 <div class="container">
         <input type="submit" value="SEND MESSAGE" class="btn">
-    </div>
-      </form> 
-      <div class="yellow-box"><img src="images/hiclipart 2.png" class="duck"></div>
-    </div>
+</div>
+</form> 
+    <div class="yellow-box"><img src="images/hiclipart 2.png" class="duck"></div>
+</div>
 
 </div>
 </body>
